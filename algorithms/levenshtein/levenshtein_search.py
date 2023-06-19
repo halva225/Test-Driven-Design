@@ -24,7 +24,7 @@ def levenshteinDistanceMatrix(s, t):
 
 
 def calcDictDistance(word, numWords):
-    file = open('mysite/polls/algorithms/1-1000.txt', 'r') 
+    file = open('Test-Driven-Design/algorithms/levenshtein/1-1000.txt', 'r') 
     lines = file.readlines() 
     file.close()
     dictWordDist = []
